@@ -1,0 +1,32 @@
+.main{
+   width: 95%; /* Adjust width for small screens */
+   top: 5%; /* Adjust positioning */
+   left: 5%;
+   transform: translate(0, 0);
+}
+.top, .bottom {
+    display: flex   ;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 20px 0 ;
+    align-items: center;
+}
+.black , input , select , button {
+        width: 100%;
+        padding: 10px; /* Add padding for better usability */
+        margin-top: 5px; /* Space between label and control */
+        box-sizing: border-box;
+}
+.top>block{
+    margin: 20px;
+}
+.bottom>button{
+    margin: 10px;
+}
+.block>p{
+    margin: 10px auto;
+    width: 50%;
+}
+.canvas{
+    border: 2px solid black;
+}
